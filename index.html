@@ -1,1 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EL TÍO GOAT — Tu pata de confianza en el mundo digital</title>
+<meta name="description" content="Streaming, anime, herramientas creativas, IA y recargas gaming. Mira productos, precios y condiciones con claridad antes de consultar por WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&display=swap">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#0b0816;color:#fff;font-family:Sora,system-ui,-apple-system,Segoe UI,Arial,sans-serif;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{max-width:100%}
+button{font:inherit}
+:focus-visible{outline:2px solid #ffc928;outline-offset:2px}
+.wrap{max-width:1160px;margin:0 auto}
+header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding:14px 32px;border-bottom:1px solid #1d1535}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px}
+.brand img{width:40px;height:40px;object-fit:contain}
+nav{display:flex;flex-wrap:wrap;align-items:center;gap:8px 24px;font-size:14px;font-weight:600;color:#d6ccf0}
+.navbtn{background:none;border:0;padding:0;font-weight:600;color:#ffc928;cursor:pointer}
+.pill{display:inline-block;background:#8b2cf5;color:#fff;font-weight:700;font-size:14px;padding:12px 24px;border-radius:999px;border:0;cursor:pointer}
+#top{padding:56px 32px;background:radial-gradient(ellipse at 80% 50%,#2e1070 0%,#0b0816 65%)}
+#top .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:24px}
+.hero-t{flex:1 1 440px;min-width:0}
+.eyebrow{margin:0 0 12px;color:#ffc928;font-weight:700;font-size:14px}
+h1{margin:0;font-size:56px;line-height:1.05;font-weight:800;letter-spacing:-1px}
+.lead{margin:20px 0 28px;font-size:16px;line-height:1.6;color:#d6ccf0;max-width:520px}
+.btns{display:flex;flex-wrap:wrap;gap:14px}
+.gold{background:#ffc928;color:#1a1200;font-weight:800;padding:15px 30px;border-radius:999px;font-size:15px}
+.ghost{border:2px solid #8b2cf5;color:#fff;font-weight:700;padding:13px 30px;border-radius:999px;font-size:15px}
+.hero-i{flex:1 1 320px;display:flex;justify-content:center}
+.mas{width:min(100%,380px);height:auto;animation:flo 3.5s ease-in-out infinite}
+@keyframes flo{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+section{padding:48px 32px 16px}
+h2{margin:0 0 20px;font-size:28px;font-weight:800}
+#q{width:100%;max-width:420px;background:#130e22;border:1px solid #2d2150;border-radius:999px;color:#fff;padding:13px 20px;font:inherit;font-size:14px;margin-bottom:18px}
+.cats{display:flex;gap:10px;overflow-x:auto;padding-bottom:10px}
+.cat{flex:none;font-weight:700;font-size:14px;cursor:pointer;border-radius:999px;padding:12px 22px;color:#fff;border:1px solid #3a2a66;background:transparent}
+.cat.on{background:#8b2cf5;border-color:#8b2cf5}
+#count{color:#b9aedb;font-size:14px;margin:12px 0 18px}
+#grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px}
+.card{background:#130e22;border:1px solid #261b45;border-radius:18px;overflow:hidden;display:flex;flex-direction:column}
+.card:hover{border-color:#8b2cf5}
+.ph{background:linear-gradient(135deg,#2e1070,#0b0816);aspect-ratio:1/1;width:100%}
+.ph img{width:100%;height:100%;object-fit:cover;display:block}
+.cb{padding:18px;display:flex;flex-direction:column;gap:6px;flex:1}
+.cb h3{margin:0;font-size:17px;font-weight:800}
+.mod{margin:0;color:#b9aedb;font-size:14px}
+.pr{margin:14px 0;color:#b9aedb;font-size:13px}
+.pr b{color:#ffc928;font-weight:800;font-size:28px}
+.pr b.q{font-size:20px}
+.vd{margin-top:auto;background:#8b2cf5;color:#fff;border:0;border-radius:12px;padding:14px;font-weight:700;font-size:14px;cursor:pointer}
+#empty{display:none;flex-direction:column;align-items:center;text-align:center;gap:10px;padding:16px 0 40px;color:#d6ccf0}
+#empty .x{font-size:72px;line-height:1}
+.box{background:#130e22;border:1px solid #261b45;border-radius:16px;padding:20px}
+.g3{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+.g4{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.box h3{margin:0 0 8px;font-size:14px;color:#ffc928}
+.box p{margin:0;font-size:14px;line-height:1.5;color:#d6ccf0}
+.num{color:#ffc928;font-size:28px;font-weight:800}
+#faq{background:#0f0a1d;padding:48px 32px}
+details{background:#130e22;border:1px solid #261b45;border-radius:14px;padding:16px 20px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:700;font-size:15px}
+details p{margin:10px 0 0;color:#cfc4ea;font-size:14px;line-height:1.6}
+footer{border-top:1px solid #1d1535;padding:32px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between}
+.fb{display:flex;align-items:center;gap:14px}
+.fb img{width:76px;height:76px;object-fit:contain}
+.ov{display:none;position:fixed;inset:0;background:rgba(5,3,12,.8);align-items:center;justify-content:center;padding:16px;z-index:60}
+.ov.open{display:flex}
+.dlg{position:relative;width:100%;max-height:92vh;overflow-y:auto;border-radius:24px;padding:22px}
+#pm .dlg{max-width:460px;background:#150f26;border:1px solid #2d2150}
+#rg .dlg{max-width:620px;padding:26px;background:linear-gradient(160deg,#25124d 0%,#0f0820 70%);border:1px solid #6b34d6;box-shadow:0 20px 60px rgba(139,44,245,.35);border-radius:28px;animation:pop .28s ease-out both}
+@keyframes pop{from{opacity:0;transform:translateY(14px) scale(.96)}to{opacity:1;transform:none}}
+.x-btn{width:44px;height:44px;border-radius:12px;border:0;background:#2a1d4d;color:#fff;font-size:18px;cursor:pointer;flex:none}
+#rg .x-btn{position:absolute;top:14px;right:14px}
+.mh{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.mh h2{font-size:20px;margin:0}
+.mi{display:flex;justify-content:center;margin:16px 0}
+.mi .ph{width:min(100%,280px);border-radius:16px;overflow:hidden}
+.mm h3{margin:0 0 4px;font-size:15px}
+.mm p{margin:0 0 16px;color:#d6ccf0;font-size:14px;line-height:1.5}
+.ib{background:#1d1438;border-radius:14px;padding:14px 16px;font-size:13px;line-height:1.55;color:#e4dcf7;margin-bottom:16px}
+.ib p{margin:0 0 10px;font-size:13px;color:#e4dcf7}
+.ib p:last-child{margin:0}
+.bn p{margin:0 0 8px;font-size:13px;color:#d6ccf0}
+.plans{display:flex;gap:8px;margin-bottom:16px}
+.plan{flex:1;font-weight:700;font-size:13px;cursor:pointer;border-radius:12px;padding:12px 6px;color:#fff;border:1px solid #3a2a66;background:transparent}
+.plan.on{background:#8b2cf5;border-color:#ffc928}
+.buy{display:block;text-align:center;margin-top:16px;background:#8b2cf5;color:#fff;font-weight:700;padding:14px;border-radius:12px;font-size:14px}
+.rg-s{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:22px 0 16px}
+.rg-s div{background:#1a1135;border:1px solid #3a2a66;border-radius:16px;padding:14px;font-size:13px;line-height:1.5;color:#d6ccf0}
+.rg-s b{display:block;color:#ffc928;font-size:14px;margin:6px 0 4px}
+.rg-b{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:8px 16px;font-size:13px;margin-bottom:16px}
+.note{border-radius:16px;padding:12px 16px;margin-bottom:14px;font-size:12.5px;line-height:1.5;color:#d6ccf0}
+.note b{display:block;color:#ffc928;font-size:14px}
+#cf{position:fixed;inset:0;pointer-events:none;z-index:70;overflow:hidden}
+#cf i{position:fixed;top:-8px;animation:cf 2.4s cubic-bezier(.2,.7,.4,1) both}
+@keyframes cf{0%{transform:translate(0,0) rotate(0);opacity:1}70%{opacity:1}100%{transform:translate(var(--dx),var(--dy)) rotate(var(--r));opacity:0}}
+@media(max-width:640px){header{padding:12px 16px}#top{padding:36px 16px}h1{font-size:38px}section,#faq,footer{padding-left:16px;padding-right:16px}}
+@media(prefers-reduced-motion:reduce){.mas,#rg .dlg{animation:none}#cf{display:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
 
+<header>
+  <a href="#top" class="brand"><img src="logo.png" alt="" onerror="this.style.display='none'">EL TÍO GOAT</a>
+  <nav>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#porque">Por qué elegirnos</a>
+    <a href="#como">Cómo funciona</a>
+    <a href="#faq">Preguntas</a>
+    <button type="button" class="navbtn" id="open-rg">🎁 Recomienda y gana</button>
+  </nav>
+  <a id="wa-attn" class="pill" href="https://wa.me/51918888567" target="_blank" rel="noopener noreferrer">Atención</a>
+</header>
+
+<main>
+<div id="top">
+  <div class="wrap">
+    <div class="hero-t">
+      <p class="eyebrow">Tu pata de confianza en el mundo digital</p>
+      <h1>¡Habla, causa! Tu mundo digital empieza aquí</h1>
+      <p class="lead">Streaming, anime, herramientas creativas y más. Mira productos, precios y condiciones con claridad antes de consultar por WhatsApp.</p>
+      <div class="btns"><a class="gold" href="#catalogo">Explorar catálogo</a><a class="ghost" href="#como">Cómo funciona</a></div>
+    </div>
+    <div class="hero-i"><img class="mas" src="hero.png" alt="Logotipo de EL TÍO GOAT con la mascota hámster" onerror="this.style.display='none'"></div>
+  </div>
+</div>
+
+<section id="catalogo">
+  <div class="wrap">
+    <h2>Catálogo</h2>
+    <input id="q" type="search" placeholder="Buscar plataforma o modalidad…" aria-label="Buscar productos">
+    <div class="cats" id="cats">
+      <button type="button" class="cat on" data-c="Todos">Todos</button>
+      <button type="button" class="cat" data-c="Streaming">Streaming</button>
+      <button type="button" class="cat" data-c="Anime">Anime</button>
+      <button type="button" class="cat" data-c="Inteligencia Artificial">Inteligencia Artificial</button>
+      <button type="button" class="cat" data-c="Gaming">Gaming</button>
+      <button type="button" class="cat" data-c="Diseño y Productividad">Diseño y Productividad</button>
+      <button type="button" class="cat" data-c="Servicios Digitales">Servicios Digitales</button>
+    </div>
+    <p id="count" aria-live="polite"></p>
+    <div id="empty"><div class="x">🙅</div><p style="margin:0;font-size:15px">No hay productos disponibles en esta categoría por ahora.</p></div>
+    <div id="grid"></div>
+  </div>
+</section>
+
+<section id="porque">
+  <div class="wrap">
+    <h2>¿Por qué elegir EL TÍO GOAT?</h2>
+    <div class="g3">
+      <div class="box"><h3>Atención personalizada</h3><p>En EL TÍO GOAT te atendemos directamente por WhatsApp Business. Puedes resolver tus dudas sobre productos, modalidades, precios y condiciones antes de tomar una decisión.</p></div>
+      <div class="box"><h3>Precios visibles</h3><p>Consulta el precio y la duración de cada modalidad en nuestro catálogo. Queremos que conozcas la información principal desde el inicio y puedas comparar las alternativas fácilmente.</p></div>
+      <div class="box"><h3>Información clara</h3><p>Cada ficha presenta los detalles del producto, sus características y las condiciones aplicables. Así puedes revisar la información relevante antes de realizar cualquier consulta.</p></div>
+      <div class="box"><h3>Facilidad de consulta</h3><p>Explora nuestras categorías, utiliza el buscador y encuentra las opciones de tu interés. Si necesitas orientación, comunícate directamente con EL TÍO GOAT mediante WhatsApp Business.</p></div>
+      <div class="box"><h3>Transparencia</h3><p>Explicamos qué modalidad corresponde a cada producto y sus restricciones. Diferenciamos perfiles, cuentas completas y otros tipos de acceso, sin prometer características que no estén confirmadas.</p></div>
+      <div class="box"><h3>Reembolso</h3><p>Si el acceso presenta una falla atribuible al servicio y no puede solucionarse, se aplicará un reembolso proporcional al período no utilizado conforme a las condiciones informadas. Los incumplimientos de uso podrán limitar esta cobertura cuando corresponda legalmente.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="como" style="padding-bottom:40px">
+  <div class="wrap">
+    <h2>Cómo funciona</h2>
+    <div class="g4">
+      <div class="box"><div class="num">01</div><p style="margin-top:6px;color:#fff;font-size:15px">Explora el catálogo.</p></div>
+      <div class="box"><div class="num">02</div><p style="margin-top:6px;color:#fff;font-size:15px">Revisa información y condiciones.</p></div>
+      <div class="box"><div class="num">03</div><p style="margin-top:6px;color:#fff;font-size:15px">Contacta por WhatsApp Business.</p></div>
+      <div class="box"><div class="num">04</div><p style="margin-top:6px;color:#fff;font-size:15px">Recibe información sobre alternativas disponibles y autorizadas.</p></div>
+    </div>
+  </div>
+</section>
+
+<div id="faq">
+  <div class="wrap">
+    <h2>Preguntas frecuentes</h2>
+    <details><summary>¿Cómo consulto un producto?</summary><p>Pulsa «Ver detalles» para revisar la ficha y luego escríbenos desde el botón de WhatsApp.</p></details>
+    <details><summary>¿Dónde veo los precios?</summary><p>En cada tarjeta del catálogo y en el detalle del producto, en soles (S/).</p></details>
+    <details><summary>¿Qué significa la duración de 30 días?</summary><p>Es el período de acceso previsto para cada producto, contado desde su entrega.</p></details>
+    <details><summary>¿Cómo contacto al negocio?</summary><p>Con el botón Atención del encabezado o el botón de contacto del pie de página.</p></details>
+    <details><summary>¿Dónde reviso las condiciones de uso?</summary><p>En «Condiciones de uso» o en la información importante dentro del detalle de cada producto.</p></details>
+  </div>
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fb">
+      <img src="footer.png" alt="Mascota de EL TÍO GOAT" onerror="this.style.display='none'">
+      <div>
+        <div style="font-weight:800;font-size:16px">EL TÍO <span style="color:#ffc928">GOAT</span></div>
+        <div style="color:#b9aedb;font-size:13px;margin-top:4px">Tu pata de confianza en el mundo digital</div>
+        <div style="color:#9d92c0;font-size:12px;margin-top:6px;max-width:440px">Marca independiente. No somos distribuidor oficial de las plataformas mencionadas.</div>
+      </div>
+    </div>
+    <a id="wa-contact" class="pill" href="https://wa.me/51918888567" target="_blank" rel="noopener noreferrer">Contacto por WhatsApp</a>
+  </div>
+</footer>
+
+<!-- Modal de producto (se llena con JS al pulsar "Ver detalles") -->
+<div class="ov" id="pm"><div class="dlg" role="dialog" aria-modal="true" aria-labelledby="pm-t" id="pm-d"></div></div>
+
+<!-- Modal Recomienda y gana (oculto por defecto) -->
+<div class="ov" id="rg">
+  <div class="dlg" role="dialog" aria-modal="true" aria-label="Recomienda y gana" id="rg-d">
+    <button type="button" class="x-btn" id="rg-x" aria-label="Cerrar">✕</button>
+    <div style="text-align:center;padding:0 40px">
+      <div style="color:#ffc928;font-weight:800;font-size:15px;letter-spacing:1px">🎉 ¡RECOMIENDA Y GANA!</div>
+      <div style="font-weight:800;font-size:22px;margin-top:10px">¡Gana <span style="color:#ffc928;font-size:64px;line-height:1">S/2</span> de descuento!</div>
+      <p style="margin:8px 0 0;color:#d6ccf0;font-size:14px;line-height:1.5">Por cada amigo nuevo que recomiendes y realice una compra válida en EL TÍO GOAT.</p>
+    </div>
+    <div class="rg-s">
+      <div><span style="font-size:26px">📣</span><b>1. Recomienda</b>Comparte EL TÍO GOAT con tus amigos y solicita tu código de referido.</div>
+      <div><span style="font-size:26px">🛍️</span><b>2. Tu amigo compra</b>Tu amigo debe indicar tu código antes de realizar su primera compra.</div>
+      <div><span style="font-size:26px">💰</span><b>3. ¡Ganas S/2!</b>Recibes una recompensa de S/2 para utilizar en tu próxima compra elegible.</div>
+    </div>
+    <div class="rg-b">
+      <div>✅ Sin compra mínima en productos elegibles.</div>
+      <div>✅ Una recompensa por cada nuevo referido que compre.</div>
+      <div>✅ Máximo una recompensa utilizada por compra.</div>
+      <div>✅ Vigencia: 45 días desde su emisión.</div>
+    </div>
+    <div class="note" style="background:#2b1a05;border:1px solid #ffc928"><b>🎮 Importante: el descuento no aplica a productos de la categoría Gaming.</b>Las compras de Gaming sí pueden generar recompensas para quien recomienda.</div>
+    <div class="note" style="background:#2a1d4d;border:1px solid #8b2cf5"><b>⏳ Tienes 45 días para utilizar tu recompensa.</b>La vigencia comienza cuando se confirma la compra válida de la persona recomendada y se emite la recompensa. Cada recompensa tiene su propio período de 45 días; las vencidas no podrán canjearse.</div>
+    <p style="margin:0 0 18px;font-size:12px;line-height:1.55;color:#b9aedb">Promoción para clientes de EL TÍO GOAT. Se genera una recompensa de S/2 por cada nuevo cliente referido que complete una compra válida. Sin compra mínima para el canje en productos elegibles. Máximo una recompensa por compra. El descuento no es canjeable por efectivo, no puede superar el importe a pagar y tiene una vigencia de 45 días desde su emisión. No se permiten autorreferidos ni compras ficticias. Aplica a productos elegibles cuya comercialización esté habilitada, excepto la categoría Gaming: las compras de Gaming sí pueden generar recompensas para quien recomienda, pero el descuento no puede utilizarse para pagar productos Gaming. Esta exclusión no se aplica retroactivamente a recompensas ya emitidas bajo condiciones anteriores.</p>
+    <div style="text-align:center">
+      <div style="font-weight:800;font-size:16px">¿Ya compraste con nosotros?</div>
+      <p style="margin:4px 0 14px;color:#d6ccf0;font-size:14px">Escríbenos y solicita tu código de referido para empezar a ganar descuentos.</p>
+      <a id="wa-ref" class="pill" href="https://wa.me/51918888567" target="_blank" rel="noopener noreferrer" style="padding:14px 28px">💬 Solicitar mi código</a>
+    </div>
+  </div>
+</div>
+
+<div id="cf" aria-hidden="true"></div>
+
+<script>
+(function () {
+  "use strict";
+  /* ===== Configuración central ===== */
+  var WA = "51918888567";
+  function wa(m) { return "https://wa.me/" + WA + "?text=" + encodeURIComponent(m); }
+  var HI = "¡Hola, Tío GOAT! 🐹👑 ";
+
+  /* ===== Textos reutilizables ===== */
+  var SUP = "Si experimentas alguna incidencia, comunícate con EL TÍO GOAT para consultar las opciones de soporte disponibles.";
+  var FSUP = ["💜 Atención y soporte", SUP];
+  var INFO = {
+    ffr: ["Información importante para tu recarga", [["🎮 Verifica tu ID", "Revisa que tu ID de jugador sea correcto antes de confirmar la compra."], ["🔒 Sin contraseñas", "Solo necesitaremos los datos necesarios para identificar tu cuenta (ID y confirmación de tu nombre de usuario). Nunca tu contraseña."], ["⚡ Tiempo de entrega", "Las recargas normalmente se completan en pocos minutos después de confirmar el pago y verificar los datos."], FSUP]],
+    ffm: ["Información importante sobre tu membresía", [["🎮 Datos correctos", "Verifica tu ID de jugador antes de confirmar la activación."], ["📅 Vigencia", "La membresía tiene una duración de 30 días conforme a las condiciones del juego."], ["🎁 Beneficios", "Las recompensas se entregan según las condiciones de la membresía."], ["⚡ Activación", "La activación se coordina después de confirmar el pago y verificar los datos."], FSUP]],
+    mlr: ["Información importante para tu recarga", [["🎮 Verifica tus datos", "Revisa que tu ID de jugador y servidor sean correctos antes de confirmar la compra."], ["🔒 Sin contraseñas", "Solo solicitaremos los datos necesarios para identificar tu cuenta. Nunca tu contraseña."], ["⚡ Tiempo de entrega", "Las recargas normalmente se completan en pocos minutos después de confirmar el pago y verificar los datos. El tiempo puede variar por disponibilidad o incidencias del proveedor."], ["⚠️ Errores e incidencias", "Las recargas enviadas a un ID incorrecto podrían no ser reversibles. Verifica tus datos antes de confirmar."], FSUP]],
+    mlw: ["Información importante sobre tu pase", [["🎮 Verifica tus datos", "Comprueba que tu ID de jugador y servidor sean correctos."], ["📅 Vigencia", "El Pase Semanal tiene una duración de siete días."], ["🎁 Recompensas", "Algunas recompensas requieren ingresar al juego y reclamarlas diariamente durante la vigencia del pase."], ["⚡ Activación", "La activación normalmente se realiza en pocos minutos después de confirmar el pago y verificar los datos. El tiempo puede variar según el proveedor."], FSUP]],
+    gem: ["Información importante sobre tu activación", [["📧 Tu cuenta de Google", "La activación se realiza directamente en la cuenta de Google que proporciones."], ["📅 Duración", "El acceso tiene una vigencia de 30 días desde su activación."], ["🔒 Seguridad", "No solicitamos tu contraseña ni códigos de verificación. La activación debe realizarse mediante un procedimiento seguro y permitido por Google."], ["💜 Atención y soporte", "Si experimentas algún inconveniente con tu acceso, comunícate directamente con EL TÍO GOAT para recibir atención y revisar las opciones de soporte disponibles."]]],
+    adobe: ["Información importante sobre tu activación", [["Duración", "Elige un plan de 4, 8 o 12 meses."], ["Cuenta personal", "La activación se coordina utilizando tu cuenta de Adobe."], ["Aplicaciones instaladas", "Si ya tienes programas de Adobe instalados, normalmente no es necesario reinstalarlos. En algunos casos basta con cerrar sesión y volver a iniciarla."], ["Tus proyectos", "Se recomienda conservar copias de seguridad. La activación no es una garantía absoluta sobre la conservación de todos los archivos, especialmente los almacenados en la nube."], ["Precio", "Las tarifas y la disponibilidad se confirman directamente por WhatsApp antes del pago."], ["Soporte", "Ante cualquier incidencia, comunícate con EL TÍO GOAT."]]],
+    yt: ["Condiciones de uso", [["📱 Dispositivos", "Acceso permitido en hasta dos dispositivos."], ["👤 Cuenta del cliente", "La activación se realiza en la cuenta de Google facilitada por el cliente."], ["⚠️ Requisito de elegibilidad", "Para esta modalidad, la cuenta no debe haber pertenecido anteriormente a un plan familiar, según las condiciones del servicio ofrecido."]]],
+    canva: ["Condiciones de uso", [["Atención ante incidencias", "💜 Si experimentas alguna incidencia, comunícate primero con EL TÍO GOAT para consultar las opciones de soporte disponibles."], ["Información importante", "Las características, restricciones y condiciones de garantía deben confirmarse antes de la compra."]]],
+    gpt: ["Condiciones de uso", [["", "📌 Esta modalidad corresponde a un perfil dentro de una cuenta compartida. Las características, restricciones y condiciones de garantía deben confirmarse antes de la compra."]]],
+    std: ["Condiciones de uso", [["", "📱 <b>Uso en un solo dispositivo.</b> El acceso ofrecido está previsto para utilizarse en un único dispositivo durante el período contratado de 30 días."], ["", "⚠️ No se permite utilizar el mismo acceso en otros dispositivos bajo las condiciones comunicadas por nuestro proveedor. Cambiar de dispositivo podría ocasionar problemas de acceso o restricciones."], ["", "💜 Si experimentas alguna incidencia, comunícate primero con EL TÍO GOAT para consultar las opciones de soporte disponibles."], ["", "📌 Las características, restricciones y condiciones de garantía deben confirmarse antes de la compra."]]]
+  };
+  var BEN = {
+    gem: [["✨ Inteligencia artificial avanzada", "Acceso a los modelos y herramientas avanzadas de Gemini incluidos en la modalidad contratada."], ["🎨 Generación de imágenes", "Crea y edita imágenes mediante las funciones de inteligencia artificial disponibles en el plan."], ["☁️ Almacenamiento de Google One", "Hasta 5 TB de almacenamiento en Google Drive, Gmail y Google Fotos, siempre que esta capacidad forme parte de la activación efectivamente suministrada."], ["📧 Integración con Google", "Acceso a funciones compatibles de Gemini en Gmail, Documentos y otras herramientas de Google, según la disponibilidad y los límites del plan."], ["🎁 Beneficios adicionales", "Acceso a beneficios adicionales de Google AI Pro que correspondan al plan y estén disponibles para la cuenta y región del cliente."]],
+    adobe: [["Más de 20 aplicaciones", "Herramientas creativas para diseño gráfico, ilustración, fotografía, edición audiovisual y otros proyectos."], ["Activación en tu cuenta personal", "La activación se coordina en la cuenta personal de Adobe del cliente. No se entrega una cuenta compartida."], ["Hasta dos dispositivos", "Permite mantener la sesión iniciada en hasta dos computadoras compatibles, con uso activo en una computadora a la vez, conforme a las condiciones de Adobe."], ["Windows y macOS", "Compatible con equipos que cumplan los requisitos de las aplicaciones."]]
+  };
+  var BNOTE = { gem: "Los beneficios corresponden al plan Google AI Pro y se ofrecen según lo confirmado para la modalidad suministrada.", adobe: "Los beneficios se muestran en la medida en que correspondan al plan efectivamente suministrado." };
+
+  /* ===== Datos de productos =====
+     [id, tipo, categoría, nombre, modalidad, precio (null = consultar), duración, imagen, "qué incluye", palabras clave] */
+  function ri(n) { return "Recarga de " + n + " diamantes directamente a tu cuenta de Free Fire, utilizando el ID de jugador que nos proporciones."; }
+  function mi(n) { return "Recarga de " + n + " diamantes directamente a tu cuenta de Mobile Legends, utilizando el ID de jugador y servidor que nos proporciones."; }
+  var RID = "Recarga por ID de jugador";
+  var P = [
+    ["netflix", "std", "Streaming", "Netflix Premium", "Perfil para celular o TV", 13.9, "30 días", "netflix_premium.png", "Acceso a un perfil de Netflix Premium destinado a celular o TV durante 30 días. Se trata de un perfil dentro de una cuenta."],
+    ["disney-est", "std", "Streaming", "Disney+ Estándar", "Acceso a un perfil", 9.9, "30 días", "disney_+_estandart.png", "Acceso a un perfil del plan Disney+ Estándar durante 30 días."],
+    ["disney-pre", "std", "Streaming", "Disney+ Premium", "Acceso a un perfil", 11.9, "30 días", "disney_+_premium.png", "Acceso a un perfil del plan Disney+ Premium durante 30 días."],
+    ["prime", "std", "Streaming", "Prime Video", "Acceso a un perfil", 9.9, "30 días", "prime_video.png", "Acceso a un perfil de Prime Video durante 30 días."],
+    ["hbo", "std", "Streaming", "HBO Max Platinum", "Acceso a un perfil", 10.5, "30 días", "hbo_max_platinum.png", "Acceso a un perfil del plan HBO Max Platinum durante 30 días."],
+    ["paramount", "std", "Streaming", "Paramount+ Premium", "Acceso a un perfil", 9.9, "30 días", "paramount_+_premium.png", "Acceso a un perfil del plan Paramount+ Premium durante 30 días."],
+    ["crunchyroll", "std", "Anime", "Crunchyroll Mega Fan", "Acceso a un perfil", 10.5, "30 días", "crunchyroll_mega_fan.png", "Acceso a un perfil del plan Crunchyroll Mega Fan durante 30 días."],
+    ["youtube", "yt", "Streaming", "YouTube Premium", "Incluye YouTube Music", 10.5, "30 días", "youtube_premium.png", "Acceso a YouTube Premium y YouTube Music durante 30 días, activados en la cuenta de Google que proporcione el cliente."],
+    ["canva", "canva", "Diseño y Productividad", "Canva Pro", "Acceso mediante tu correo", 9.9, "1 año (12 meses)", "canva_pro.png", "Acceso a Canva Pro durante un año mediante una invitación enviada al correo electrónico que proporcione el cliente."],
+    ["adobe", "adobe", "Diseño y Productividad", "Adobe Creative Cloud", "Suite creativa · Planes de 4, 8 y 12 meses", null, "", "adobe_creative_cloud.png", "Acceso a más de 20 aplicaciones creativas de Adobe, incluyendo Photoshop, Illustrator, Premiere Pro, After Effects y otras herramientas de diseño, fotografía y edición de video, según el plan contratado.", "photoshop illustrator premiere after effects diseño productividad"],
+    ["capcut", "std", "Diseño y Productividad", "CapCut", "Acceso para un dispositivo", 12.9, "30 días", "capcut.png", "Acceso a las funciones del plan contratado de CapCut para un dispositivo durante 30 días, sujeto a confirmación de la modalidad."],
+    ["gemini", "gem", "Inteligencia Artificial", "Gemini Pro - 1 mes", "Activación en tu cuenta de Google", 9.9, "30 días", "gemini_pro_1_mes.png", "Disfruta de acceso a Gemini Pro durante 30 días, con herramientas avanzadas de inteligencia artificial para crear contenido, generar imágenes, investigar, estudiar y aumentar tu productividad.", "google ai ia"],
+    ["chatgpt", "gpt", "Inteligencia Artificial", "ChatGPT Plus", "Perfil en cuenta compartida", 18.5, "30 días", "chat_gpt_plus.png", "ChatGPT Plus es un perfil dentro de una cuenta compartida, no una cuenta individual propia. Acceso por 30 días.", "ia"],
+    ["ff220", "ffr", "Gaming", "Free Fire - 220 diamantes", RID, 6.9, "", "ff_220_diamantes.png", ri("220")],
+    ["ff341", "ffr", "Gaming", "Free Fire - 341 diamantes", RID, 9.9, "", "ff_341_diamantes.png", ri("341")],
+    ["ff572", "ffr", "Gaming", "Free Fire - 572 diamantes", RID, 16.5, "", "ff_572_diamantes.png", ri("572")],
+    ["ff1166", "ffr", "Gaming", "Free Fire - 1,166 diamantes", RID, 29.9, "", "ff_1166_diamantes.png", ri("1,166")],
+    ["ffmem", "ffm", "Gaming", "Free Fire - Membresía mensual", "Membresía por 30 días", 38.9, "30 días", "ff_membresia_mensual.png", "Activación de la membresía mensual de Free Fire por 30 días en tu cuenta de jugador. Incluye los beneficios correspondientes a esta membresía, conforme a las condiciones vigentes del juego."],
+    ["ff6160", "ffr", "Gaming", "Free Fire - 6,160 diamantes", RID, 149.9, "", "ff_6160_diamantes.png", ri("6,160")],
+    ["ml172", "mlr", "Gaming", "Mobile Legends - 172 diamantes", RID, 10.9, "", "ml_172_diamantes.png", mi("172")],
+    ["ml257", "mlr", "Gaming", "Mobile Legends - 257 diamantes", RID, 15.9, "", "ml_257_diamantes.png", mi("257")],
+    ["ml514", "mlr", "Gaming", "Mobile Legends - 514 diamantes", RID, 30.9, "", "ml_514_diamantes.png", mi("514")],
+    ["ml565", "mlr", "Gaming", "Mobile Legends - 565 diamantes", RID, 34.9, "", "ml_565_diamantes.png", mi("565")],
+    ["ml2901", "mlr", "Gaming", "Mobile Legends - 2,901 diamantes", RID, 164.9, "", "ml_2901_diamantes.png", mi("2,901")],
+    ["ml5532", "mlr", "Gaming", "Mobile Legends - 5,532 diamantes", RID, 299.9, "", "ml_5532_diamantes.png", mi("5,532")],
+    ["mlpase", "mlw", "Gaming", "Mobile Legends - Pase semanal", RID, 6.9, "7 días", "ml_pase_semanal.png", "Activación del Pase Semanal de Diamantes de Mobile Legends en tu cuenta de jugador, utilizando el ID de jugador y servidor que nos proporciones. Incluye los beneficios correspondientes durante sus siete días de vigencia, según las condiciones del juego."]
+  ].map(function (a) { return { id: a[0], type: a[1], cat: a[2], name: a[3], mod: a[4], price: a[5], dur: a[6], img: a[7], inc: a[8], kw: a[9] || "" }; });
+
+  /* ===== Mensaje de WhatsApp generado desde el producto ===== */
+  function buildMsg(p, plan) {
+    var pr = p.price === null ? "" : "S/" + p.price.toFixed(2);
+    if (p.type === "adobe") return HI + (plan ? "Me interesa Adobe Creative Cloud por " + plan + " meses. ¿Podrías indicarme el precio actual, la disponibilidad y cómo realizar la activación?" : "Me interesa Adobe Creative Cloud. ¿Podrías indicarme los precios actuales de los planes de 4, 8 y 12 meses y cómo realizar la activación?");
+    if (p.type === "ffm") return HI + "Quiero comprar la membresía mensual de Free Fire por " + pr + ". ¿Me indicas cómo realizar la activación?";
+    if (p.type === "gem") return HI + "Quiero comprar " + p.name + " por " + pr + ". ¿Me indicas cómo realizar la activación en mi cuenta de Google?";
+    var fin = (p.type === "ffr" || p.type === "mlr") ? "recarga" : (p.type === "mlw" || p.type === "yt") ? "activación" : "compra";
+    return HI + "Quiero comprar " + p.name + " por " + pr + ". ¿Me indicas cómo realizar la " + fin + "?";
+  }
+
+  /* ===== Utilidades ===== */
+  function $(id) { return document.getElementById(id); }
+  function imgTag(p) { return '<div class="ph"><img src="' + p.img + '" alt="' + p.name + '" loading="lazy" onerror="this.style.opacity=0"></div>'; }
+  function box(title, items) {
+    var h = '<h3>' + title + '</h3><div class="ib">';
+    items.forEach(function (it) { h += '<p>' + (it[0] ? '<b>' + it[0] + '</b><br>' : '') + it[1] + '</p>'; });
+    return h + '</div>';
+  }
+  function priceHtml(p, big) {
+    if (p.price === null) return '<b class="q" style="font-size:20px">Consultar precio</b>';
+    return '<b style="font-size:' + big + 'px">S/' + p.price.toFixed(2) + '</b>' + (p.dur ? ' · ' + p.dur : '');
+  }
+
+  /* ===== Catálogo ===== */
+  var state = { cat: "Todos", q: "" };
+  function render() {
+    var s = state.q.trim().toLowerCase();
+    var list = P.filter(function (p) {
+      return (state.cat === "Todos" || p.cat === state.cat) && (!s || (p.name + " " + p.mod + " " + p.kw).toLowerCase().indexOf(s) > -1);
+    });
+    $("count").textContent = list.length + " resultados";
+    $("empty").style.display = list.length ? "none" : "flex";
+    var h = "";
+    list.forEach(function (p) {
+      h += '<article class="card">' + imgTag(p) + '<div class="cb"><h3>' + p.name + '</h3><p class="mod">' + p.mod + '</p><p class="pr">' + priceHtml(p, 28) + '</p><button type="button" class="vd" data-id="' + p.id + '">Ver detalles</button></div></article>';
+    });
+    $("grid").innerHTML = h;
+  }
+  $("cats").addEventListener("click", function (e) {
+    var b = e.target.closest(".cat"); if (!b) return;
+    state.cat = b.getAttribute("data-c");
+    Array.prototype.forEach.call(document.querySelectorAll(".cat"), function (x) { x.classList.toggle("on", x === b); });
+    render();
+  });
+  $("q").addEventListener("input", function (e) { state.q = e.target.value; render(); });
+
+  /* ===== Modales: abrir/cerrar, foco, ESC y bloqueo de scroll ===== */
+  var lastFocus = null, openEl = null;
+  function openModal(ov, focusId) {
+    lastFocus = document.activeElement; openEl = ov;
+    ov.classList.add("open"); document.body.style.overflow = "hidden";
+    setTimeout(function () { var f = $(focusId); if (f) f.focus(); }, 30);
+  }
+  function closeModal() {
+    if (!openEl) return;
+    openEl.classList.remove("open"); openEl = null; document.body.style.overflow = "";
+    $("cf").innerHTML = "";
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  document.addEventListener("keydown", function (e) {
+    if (!openEl) return;
+    if (e.key === "Escape") { closeModal(); return; }
+    if (e.key === "Tab") {
+      var els = openEl.querySelectorAll("a[href],button");
+      if (!els.length) return;
+      var a = els[0], z = els[els.length - 1];
+      if (e.shiftKey && document.activeElement === a) { e.preventDefault(); z.focus(); }
+      else if (!e.shiftKey && document.activeElement === z) { e.preventDefault(); a.focus(); }
+    }
+  });
+  ["pm", "rg"].forEach(function (id) {
+    $(id).addEventListener("click", function (e) { if (e.target === $(id)) closeModal(); });
+  });
+
+  /* ===== Modal de producto ===== */
+  function openProduct(p) {
+    var plan = null;
+    var h = '<div class="mh"><h2 id="pm-t">' + p.name + '</h2><button type="button" class="x-btn" id="pm-x" aria-label="Cerrar">✕</button></div>';
+    h += '<div class="mi">' + imgTag(p) + '</div><div class="mm">';
+    h += '<p style="margin:0">' + p.mod + '</p><p class="pr" style="margin:4px 0 16px">' + priceHtml(p, 26) + '</p>';
+    if (p.type === "adobe") h += '<h3 style="margin-bottom:8px">Elige tu plan</h3><div class="plans"><button type="button" class="plan" data-d="4">4 meses</button><button type="button" class="plan" data-d="8">8 meses</button><button type="button" class="plan" data-d="12">12 meses</button></div>';
+    if (p.type === "gpt") h += '<h3>Información general</h3><p>ChatGPT Plus — Acceso por 30 días. Categoría: Inteligencia Artificial.</p>';
+    h += '<h3>¿Qué incluye?</h3><p>' + p.inc + '</p>';
+    if (BEN[p.type]) {
+      h += '<div class="bn" style="margin:-6px 0 16px">';
+      BEN[p.type].forEach(function (b) { h += '<p><b style="color:#fff">' + b[0] + '</b><br>' + b[1] + '</p>'; });
+      h += '<p style="font-size:12px;color:#b9aedb;margin:0">' + BNOTE[p.type] + '</p></div>';
+    }
+    var inf = INFO[p.type]; h += box(inf[0], inf[1]);
+    h += '<h3>Atención y soporte</h3><p style="margin:0">' + (p.type === "gpt" ? "Consultas generales por WhatsApp Business." : "Consultas e incidencias por WhatsApp Business.") + '</p>';
+    h += '<a class="buy" id="pm-buy" href="' + wa(buildMsg(p, null)) + '" target="_blank" rel="noopener noreferrer">💬 ' + (p.price === null ? "Consultar precio por WhatsApp" : "Comprar por WhatsApp") + '</a></div>';
+    $("pm-d").innerHTML = h;
+    $("pm-x").addEventListener("click", closeModal);
+    Array.prototype.forEach.call($("pm-d").querySelectorAll(".plan"), function (b) {
+      b.addEventListener("click", function () {
+        var d = b.getAttribute("data-d"); plan = (plan === d) ? null : d;
+        Array.prototype.forEach.call($("pm-d").querySelectorAll(".plan"), function (x) {
+          var on = x.getAttribute("data-d") === plan;
+          x.classList.toggle("on", on); x.textContent = (on ? "✓ " : "") + x.getAttribute("data-d") + " meses";
+        });
+        $("pm-buy").href = wa(buildMsg(p, plan));
+      });
+    });
+    openModal($("pm"), "pm-x");
+  }
+  $("grid").addEventListener("click", function (e) {
+    var b = e.target.closest(".vd"); if (!b) return;
+    var id = b.getAttribute("data-id");
+    for (var i = 0; i < P.length; i++) if (P[i].id === id) { openProduct(P[i]); break; }
+  });
+
+  /* ===== Recomienda y gana + confeti ===== */
+  function confetti() {
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var box = $("cf"), C = ["#ffc928", "#8b2cf5", "#ffffff", "#b57cff", "#ffdf6e", "#6f3df0"], h = "";
+    function R(a, b) { return a + Math.random() * (b - a); }
+    for (var i = 0; i < 46; i++) {
+      var side = i % 2, w = R(6, 10);
+      h += '<i style="' + (side ? "right" : "left") + ':0;width:' + w.toFixed(1) + 'px;height:' + (i % 3 ? (w * 1.6).toFixed(1) : w.toFixed(1)) + 'px;background:' + C[i % C.length] + ';border-radius:' + (i % 3 ? "2px" : "50%") + ';--dx:' + ((side ? -1 : 1) * R(12, 46)).toFixed(1) + 'vw;--dy:' + R(40, 90).toFixed(0) + 'vh;--r:' + R(-900, 900).toFixed(0) + 'deg;animation-duration:' + R(2, 2.6).toFixed(2) + 's;animation-delay:' + R(0, 0.3).toFixed(2) + 's"></i>';
+    }
+    box.innerHTML = h;
+    setTimeout(function () { box.innerHTML = ""; }, 3200);
+  }
+  $("open-rg").addEventListener("click", function () { openModal($("rg"), "rg-x"); confetti(); });
+  $("rg-x").addEventListener("click", closeModal);
+
+  /* ===== Enlaces de WhatsApp ===== */
+  $("wa-attn").href = wa("🐐👑 ¡Habla, Tío GOAT! Estoy visitando tu tienda digital y me gustaría realizar una consulta. 💜");
+  $("wa-contact").href = wa("🐐👑 ¡Hola, Tío GOAT! Me gustaría conocer más sobre tus servicios digitales y las opciones disponibles. 🚀");
+  $("wa-ref").href = wa(HI + "Ya soy cliente y quiero solicitar mi código para participar en Recomienda y gana");
+
+  render();
+})();
+</script>
+</body>
+</html>
