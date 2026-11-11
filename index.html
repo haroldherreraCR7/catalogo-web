@@ -63,7 +63,7 @@ h2{margin:0 0 20px;font-size:28px;font-weight:800}
 .box p{margin:0;font-size:14px;line-height:1.5;color:#d6ccf0}
 .num{color:#ffc928;font-size:28px;font-weight:800}
 #faq{background:#0f0a1d;padding:48px 32px}
-details{background:#130e22;border:1px solid #261b45;border-radius:14px;padding:16px 20px;margin-bottom:10px}
+details{background:#0e22;border:1px solid #261b45;border-radius:14px;padding:16px 20px;margin-bottom:10px}
 summary{cursor:pointer;font-weight:700;font-size:15px}
 details p{margin:10px 0 0;color:#cfc4ea;font-size:14px;line-height:1.6}
 footer{border-top:1px solid #1d1535;padding:32px}
@@ -74,7 +74,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-con
 .ov.open{display:flex}
 .dlg{position:relative;width:100%;max-height:92vh;overflow-y:auto;border-radius:24px;padding:22px}
 #pm .dlg{max-width:460px;background:#150f26;border:1px solid #2d2150}
-#rg .dlg{max-width:620px;padding:26px;background:linear-gradient(160deg,#25124d 0%,#0f0820 70%);border:1px solid #6b34d6;box-shadow:0 20px 60px rgba(139,44,245,.35);border-radius:28px;animation:pop .28s ease-out both}
+#rg .dlg{max-width:620px;padding:26px;background:linear-gradient(160deg,#25124d 0%,#0f0820 70%);border:1px solid #6b34d6;box-shadow:0 20px 60px rgba(9,44,245,.35);border-radius:28px;animation:pop .28s ease-out both}
 @keyframes pop{from{opacity:0;transform:translateY(14px) scale(.96)}to{opacity:1;transform:none}}
 .x-btn{width:44px;height:44px;border-radius:12px;border:0;background:#2a1d4d;color:#fff;font-size:18px;cursor:pointer;flex:none}
 #rg .x-btn{position:absolute;top:14px;right:14px}
@@ -84,10 +84,10 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-con
 .mi .ph{width:min(100%,280px);border-radius:16px;overflow:hidden}
 .mm h3{margin:0 0 4px;font-size:15px}
 .mm p{margin:0 0 16px;color:#d6ccf0;font-size:14px;line-height:1.5}
-.ib{background:#1d1438;border-radius:14px;padding:14px 16px;font-size:13px;line-height:1.55;color:#e4dcf7;margin-bottom:16px}
-.ib p{margin:0 0 10px;font-size:13px;color:#e4dcf7}
+.ib{background:#1d1438;border-radius:14px;padding:14px 16px;font-size:px;line-height:1.55;color:#e4dcf7;margin-bottom:16px}
+.ib p{margin:0 0 10px;font-size:px;color:#e4dcf7}
 .ib p:last-child{margin:0}
-.bn p{margin:0 0 8px;font-size:13px;color:#d6ccf0}
+.bn p{margin:0 0 8px;font-size:px;color:#d6ccf0}
 .plans{display:flex;gap:8px;margin-bottom:16px}
 .plan{flex:1;font-weight:700;font-size:13px;cursor:pointer;border-radius:12px;padding:12px 6px;color:#fff;border:1px solid #3a2a66;background:transparent}
 .plan.on{background:#8b2cf5;border-color:#ffc928}
@@ -324,22 +324,22 @@ iframe[src*="netlify"] {
   function mi(n) { return "Recarga de " + n + " diamantes directamente a tu cuenta de Mobile Legends, utilizando el ID de jugador y servidor que nos proporciones."; }
   var RID = "Recarga por ID de jugador";
   var P = [
-    ["netflix", "std", "Streaming", "Netflix Premium", "Perfil para celular o TV", 13.9, "30 días", "netflix_premium.png", "Acceso a un perfil de Netflix Premium destinado a celular o TV durante 30 días. Se trata de un perfil dentro de una cuenta."],
-    ["disney-est", "std", "Streaming", "Disney+ Estándar", "Acceso a un perfil", 9.9, "30 días", "disney_+_estandart.png", "Acceso a un perfil del plan Disney+ Estándar durante 30 días."],
+    ["netflix", "std", "Streaming", "Netflix Premium", "Perfil para celular o TV", 14.5, "30 días", "netflix_premium.png", "Acceso a un perfil de Netflix Premium destinado a celular o TV durante 30 días. Se trata de un perfil dentro de una cuenta."],
+    ["disney-est", "std", "Streaming", "Disney+ Estándar", "Acceso a un perfil", 10.0, "30 días", "disney_+_estandart.png", "Acceso a un perfil del plan Disney+ Estándar durante 30 días."],
     ["disney-pre", "std", "Streaming", "Disney+ Premium", "Acceso a un perfil", 11.9, "30 días", "disney_premium.png", "Acceso a un perfil del plan Disney+ Premium durante 30 días."],
-    ["prime", "std", "Streaming", "Prime Video", "Acceso a un perfil", 9.9, "30 días", "prime_video.png", "Acceso a un perfil de Prime Video durante 30 días."],
+    ["prime", "std", "Streaming", "Prime Video", "Acceso a un perfil", 10.0, "30 días", "prime_video.png", "Acceso a un perfil de Prime Video durante 30 días."],
     ["hbo", "std", "Streaming", "HBO Max Platinum", "Acceso a un perfil", 10.5, "30 días", "hbo_max_platinum.png", "Acceso a un perfil del plan HBO Max Platinum durante 30 días."],
-    ["paramount", "std", "Streaming", "Paramount+ Premium", "Acceso a un perfil", 9.9, "30 días", "paramount_+_premium.png", "Acceso a un perfil del plan Paramount+ Premium durante 30 días."],
-    ["crunchyroll", "std", "Anime", "Crunchyroll Mega Fan", "Acceso a un perfil", 10.5, "30 días", "crunchyroll_mega_fan.png", "Acceso a un perfil del plan Crunchyroll Mega Fan durante 30 días."],
+    ["paramount", "std", "Streaming", "Paramount+ Premium", "Acceso a un perfil", 10.0, "30 días", "paramount_+_premium.png", "Acceso a un perfil del plan Paramount+ Premium durante 30 días."],
+    ["crunchyroll", "std", "Anime", "Crunchyroll Mega Fan", "Acceso a un perfil", 10.0, "30 días", "crunchyroll_mega_fan.png", "Acceso a un perfil del plan Crunchyroll Mega Fan durante 30 días."],
     ["youtube", "yt", "Streaming", "YouTube Premium", "Incluye YouTube Music", 10.5, "30 días", "youtube_premium.png", "Acceso a YouTube Premium y YouTube Music durante 30 días, activados en la cuenta de Google que proporcione el cliente."],
-    ["canva", "canva", "Diseño y Productividad", "Canva Pro", "Acceso mediante tu correo", 9.9, "1 año (12 meses)", "canva_pro.png", "Acceso a Canva Pro durante un año mediante una invitación enviada al correo electrónico que proporcione el cliente."],
-    ["adobe", "adobe", "Diseño y Productividad", "Adobe Creative Cloud", "Suite creativa · Planes de 4, 8 y 12 meses", null, "", "adobe_creative_cloud.png", "Acceso a más de 20 aplicaciones creativas de Adobe, incluyendo Photoshop, Illustrator, Premiere Pro, After Effects y otras herramientas de diseño, fotografía y edición de video, según el plan contratado.", "photoshop illustrator premiere after effects diseño productividad"],
-    ["capcut", "std", "Diseño y Productividad", "CapCut", "Acceso para un dispositivo", 12.9, "30 días", "capcut.png", "Acceso a las funciones del plan contratado de CapCut para un dispositivo durante 30 días, sujeto a confirmación de la modalidad."],
-    ["gemini", "gem", "Inteligencia Artificial", "Gemini Pro - 1 mes", "Activación en tu cuenta de Google", 9.9, "30 días", "gemini_pro_1_mes.png", "Disfruta de acceso a Gemini Pro durante 30 días, con herramientas avanzadas de inteligencia artificial para crear contenido, generar imágenes, investigar, estudiar y aumentar tu productividad.", "google ai ia"],
+    ["canva", "canva", "Diseño y Productividad", "Canva Pro", "Acceso mediante tu correo", 10.0, "1 año (12 meses)", "canva_pro.png", "Acceso a Canva Pro durante un año mediante una invitación enviada al correo electrónico que proporcione el cliente."],
+    ["adobe", "adobe", "Diseño y Productividad", "Adobe Creative Cloud", "Suite creativa · Planes de 4, 8 y 12 meses", null, "", "adobe_creative_cloud.png", "Acceso a más de 20 aplicaciones creativas de Adobe, incluyendo Photoshop, Illustrator, Premiere Pro, After Effects y otras herramientas de diseño, fotografía y edición de video.", "photoshop illustrator premiere after effects diseño productividad"],
+    ["capcut", "std", "Diseño y Productividad", "CapCut", "Acceso para un dispositivo", 12.5, "30 días", "capcut.png", "Acceso a las funciones del plan contratado de CapCut para un dispositivo durante 30 días, sujeto a confirmación de la modalidad."],
+    ["gemini", "gem", "Inteligencia Artificial", "Gemini Pro - 1 mes", "Activación en tu cuenta de Google", 10.0, "30 días", "gemini_pro_1_mes.png", "Disfruta de acceso a Gemini Pro durante 30 días, con herramientas avanzadas de inteligencia artificial para crear contenido, generar imágenes, investigar, estudiar y aumentar tu productividad.", "google ai ia"],
     ["chatgpt", "gpt", "Inteligencia Artificial", "ChatGPT Plus", "Perfil en cuenta compartida", 18.5, "30 días", "chat_gpt_plus.png", "ChatGPT Plus es un perfil dentro de una cuenta compartida, no una cuenta individual propia. Acceso por 30 días.", "ia"],
     ["ff220", "ffr", "Gaming", "Free Fire - 220 diamantes", RID, 6.9, "", "ff_220_diamantes.png", ri("220")],
     ["ff341", "ffr", "Gaming", "Free Fire - 341 diamantes", RID, 9.9, "", "ff_341_diamantes.png", ri("341")],
-    ["ff572", "ffr", "Gaming", "Free Fire - 572 diamantes", RID, 16.5, "", "ff_572_diamantes.png", ri("572")],
+    ["ff572", "ffr", "Gaming", "Free Fire - 572 diamantes", RID, 16.6, "", "ff_572_diamantes.png", ri("572")],
     ["ff1166", "ffr", "Gaming", "Free Fire - 1,166 diamantes", RID, 29.9, "", "ff_1166_diamantes.png", ri("1,166")],
     ["ffmem", "ffm", "Gaming", "Free Fire - Membresía mensual", "Membresía por 30 días", 38.9, "30 días", "ff_membresia_mensual.png", "Activación de la membresía mensual de Free Fire por 30 días en tu cuenta de jugador. Incluye los beneficios correspondientes a esta membresía, conforme a las condiciones vigentes del juego."],
     ["ff6160", "ffr", "Gaming", "Free Fire - 6,160 diamantes", RID, 149.9, "", "ff_6160_diamantes.png", ri("6,160")],
