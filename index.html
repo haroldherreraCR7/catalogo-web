@@ -519,6 +519,113 @@ header nav > :nth-child(5) {
   gap: 10px;
 }
 
+  /* ===== RECOMIENDA Y GANA: VISTA MOVIL COMPACTA ===== */
+
+  /* Ventana principal */
+  #rg {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #rg .dlg {
+    width: 100%;
+    max-width: 100%;
+    max-height: 88dvh;
+    padding: 18px 12px;
+    border-radius: 16px;
+    overflow-y: auto;
+  }
+
+  /* Encabezado de la promocion */
+  #rg .dlg > div:first-of-type {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  #rg .dlg > div:first-of-type > div:first-child {
+    font-size: 11px !important;
+  }
+
+  #rg .dlg > div:first-of-type > div:nth-child(2) {
+    font-size: 15px !important;
+    line-height: 1.3;
+  }
+
+  #rg .dlg > div:first-of-type > div:nth-child(2) span {
+    font-size: 36px !important;
+  }
+
+  #rg .dlg > div:first-of-type p {
+    font-size: 10px !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Tres pasos en una sola fila */
+  #rg .rg-s {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px;
+    margin: 14px 0;
+  }
+
+  #rg .rg-s div {
+    min-width: 0;
+    padding: 9px 6px;
+    font-size: 9px;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+    border-radius: 10px;
+  }
+
+  #rg .rg-s div span {
+    font-size: 17px !important;
+  }
+
+  #rg .rg-s div b {
+    font-size: 10px;
+    line-height: 1.25;
+    margin: 5px 0;
+  }
+
+  /* Condiciones en dos columnas */
+  #rg .rg-b {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 7px;
+    font-size: 10px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+  }
+
+  /* Avisos importantes */
+  #rg .note {
+    padding: 10px;
+    margin-bottom: 9px;
+    font-size: 10px;
+    line-height: 1.4;
+    border-radius: 10px;
+  }
+
+  #rg .note b {
+    font-size: 11px;
+  }
+
+  /* Condiciones legales */
+  #rg .dlg > p {
+    font-size: 9px !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Boton de cerrar */
+  #rg .x-btn {
+    width: 34px;
+    height: 34px;
+    top: 10px;
+    right: 10px;
+    font-size: 15px;
+  }
+
 }
 
 </style>
