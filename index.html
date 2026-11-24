@@ -308,6 +308,111 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-con
     white-space: normal;
   }
 
+  /* ===== SECCIONES COMPACTAS EN CELULARES ===== */
+
+  /* 1. No encuentras lo que buscas */
+  #catalogo .help {
+    display: grid;
+    grid-template-columns: 30% minmax(0, 1fr);
+    align-items: center;
+    gap: 12px;
+    padding: 14px;
+    margin-top: 24px;
+    border-radius: 14px;
+    text-align: left;
+  }
+
+  #catalogo .help-i {
+    min-width: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #catalogo .help-i img {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+  }
+
+  #catalogo .help-t {
+    min-width: 0;
+  }
+
+  #catalogo .help-t h2 {
+    font-size: 15px;
+    line-height: 1.2;
+    margin-bottom: 7px;
+  }
+
+  #catalogo .help-t p {
+    font-size: 10px;
+    line-height: 1.45;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+
+  #catalogo .help-t .pill {
+    font-size: 10px;
+    padding: 9px 12px;
+    text-align: center;
+  }
+
+  /* 2. Por qué elegir EL TÍO GOAT */
+  #porque .g3 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 7px;
+  }
+
+  #porque .box {
+    min-width: 0;
+    padding: 9px 7px;
+    border-radius: 9px;
+  }
+
+  #porque .box h3 {
+    font-size: 10px;
+    line-height: 1.3;
+    margin-bottom: 5px;
+  }
+
+  #porque .box p {
+    font-size: 8px;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+  }
+
+  /* 3. Cómo funciona */
+  #como .g4 {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 7px;
+  }
+
+  #como .box {
+    min-width: 0;
+    padding: 10px 7px;
+    border-radius: 9px;
+  }
+
+  #como .num {
+    font-size: 17px;
+  }
+
+  #como .box p {
+    font-size: 9px !important;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+
+  /* Títulos de las secciones */
+  #porque h2,
+  #como h2 {
+    font-size: 21px;
+    line-height: 1.2;
+  }
+
 }
 
 </style>
